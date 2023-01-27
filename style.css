@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #b1bac4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    color: blueviolet;
+}
+
+/* Float left skal cleares ellers er det alle elementer efter float elementet der bliver ramt */
+article {
+    float: left;
+    padding-right: 1rem;
+}
+
+article > img {
+    width: 160px;
+}
+
+footer ul li:last-child {
+    background-color: orange;
+}
